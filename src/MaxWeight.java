@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.io.File;
 import parcs.*;
 
-public class Bluck {
+public class MaxWeight {
     public static void main(String[] args) throws Exception {
+        long m = System.currentTimeMillis();
         task curtask = new task();
         curtask.addJarFile("DFS.jar");
         Node n = fromFile(curtask.findFile("input"));
@@ -18,6 +19,7 @@ public class Bluck {
 
         System.out.println("Waiting for result...");
         System.out.println("Result: " + c.readLong());
+        System.out.println("Parcs time (ms):    "+ (double) (System.currentTimeMillis() - m));
         curtask.end();
     }
 

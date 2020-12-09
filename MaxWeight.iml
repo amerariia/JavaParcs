@@ -8,10 +8,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="HostsServer" level="project" />
-    <orderEntry type="library" name="out1" level="project" />
+    <orderEntry type="library" name="parcs1" level="project" />
+    <orderEntry type="library" name="parcs" level="project" />
     <orderEntry type="library" name="out" level="project" />
     <orderEntry type="library" name="Daemon" level="project" />
-    <orderEntry type="library" name="parcs" level="project" />
     <orderEntry type="module" module-name="parcs" />
   </component>
 </module>
